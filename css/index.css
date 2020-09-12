@@ -1,3 +1,4 @@
+/* Start of CSS Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -58,6 +59,18 @@ html, body {
     width: 800px;
     margin: 0 auto;
 }
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
 
 /* Header Nav Bar */
 .flex_row_1a, .flex_row_1b {
@@ -97,7 +110,7 @@ div.logo_img {
 
 /* Header Image */
 .header_img {
-    padding: ;
+    padding: 20px 2%;
 }
 .header_img img {
     width: 100%;
@@ -106,20 +119,6 @@ div.logo_img {
     object-position: 100% 0;
 }
 /* End of Header Image */
-
-
-* {
-    box-sizing: border-box;
-}
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-}
-
-p {
-    line-height: 1.4;
-}
 
 /* Top Content */
 .top-content {
