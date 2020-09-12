@@ -73,7 +73,7 @@ p {
 }
 
 /* Header Nav Bar */
-.flex_row_1a, .flex_row_1b {
+.flex_row {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -81,7 +81,6 @@ p {
     width: 100%;
     padding: 20px 2%;
     font-size: 14px;
-    border: 2px solid black;
 }
 div.logo_img, div.home_link, div.about_link, div.products_link, div.blog_link, div.contact_link {
     display: flex;
@@ -110,7 +109,7 @@ div.logo_img {
 
 /* Header Image */
 .header_img {
-    padding: 20px 2%;
+    margin-bottom: 20px;
 }
 .header_img img {
     width: 100%;
