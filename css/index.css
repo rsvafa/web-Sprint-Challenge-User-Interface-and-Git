@@ -96,6 +96,9 @@ div.logo_img {
 /* End of Header Nav Bar */
 
 /* Header Image */
+.header_img {
+    padding: ;
+}
 .header_img img {
     width: 100%;
     height: 150px;
@@ -118,6 +121,7 @@ p {
     line-height: 1.4;
 }
 
+/* Top Content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -131,7 +135,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/* End Top Content */
 
+/* Middle Content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -158,7 +164,9 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* End Middle Content */
 
+/* Bottom Content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -172,7 +180,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* End Bottom Content */
 
+/* Footer Content */
 footer {
     width: 100%;
     background: black;
@@ -191,3 +201,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* End Footer Content */
