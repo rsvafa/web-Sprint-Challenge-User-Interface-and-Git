@@ -133,15 +133,21 @@ div.logo_img {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.top-content .text-container_about {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
 /* End Top Content */
 
 /* Middle Content */
-.middle-content {
+.middle-content, .middle-content_about {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.middle-content h2, .middle-content_about h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -155,7 +161,6 @@ div.logo_img {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -192,6 +197,38 @@ div.logo_img {
 .middle-content .boxes #box10 {
     background: dodgerblue;
 }
+
+/* Middle Content for About Page */
+.middle-content_about .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+.middle-content .boxes .box_about {
+    width: 370px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.middle-content .boxes .box_about .boxes_img_about img{
+    width: 370px;
+    height: 236px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+div.learn_button {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10%;
+    height: 50px;  
+}
+/*End Middle Content for About Page */
 /* End Middle Content */
 
 /* Bottom Content */
