@@ -2,13 +2,17 @@
 
 html, body {
     height: 100%;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
 }
 .main-container {
     /* Can change width by percentage for responsive or px for fixed */
-    width: 60% /* 800px */;
-    border: solid black 1px;
+    width: 83%;
+    height: 100%;
     margin: 0 auto; /* centers content */
+    font-size: 1.6rem;
+    padding: 0% 8.8%;
 }
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -20,34 +24,65 @@ p {
 }
 header {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    padding: 20px 2%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: space-around;
+    width: 99%;
+    height: 40%;
 }
-nav a {
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: space-around;
+    align-content: center;
+    width: 100%;
+    height: 30%;
+}
+.header-logo-img {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: space-around;
+    align-content: center;
+}
+div.header-logo-img img {
+    max-width: 100%;
+    height: auto;
+}
+.nav-div {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: space-around;
+    align-content: center;
+}
+div.nav-div a {
     text-decoration: none;
     color: #000000;
     text-align: center;
+    width: 10%;
+    margin: 0 auto; /* centers content */
+    font-size:1.4rem;
 }
 nav a:hover {
     color: #E34B2F;
 }
-header img {
+header section {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+header section img {
     object-fit: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -87,6 +122,36 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes #box1 {
+    background: teal;
+}
+.middle-content .boxes #box2 {
+    background: gold;
+}
+.middle-content .boxes #box3 {
+    background: cadetblue;
+}
+.middle-content .boxes #box4 {
+    background: coral;
+}
+.middle-content .boxes #box5 {
+    background: crimson;
+}
+.middle-content .boxes #box6 {
+    background: forestgreen;
+}
+.middle-content .boxes #box7 {
+    background: darkorchid;
+}
+.middle-content .boxes #box8 {
+    background: hotpink;
+}
+.middle-content .boxes #box9 {
+    background: indigo;
+}
+.middle-content .boxes #box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
