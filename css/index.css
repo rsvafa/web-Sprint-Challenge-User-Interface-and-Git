@@ -82,6 +82,8 @@ header section {
 }
 header section img {
     object-fit: cover;
+    max-width: 100%;
+    height: auto;
 }
 .top-content {
     display: flex;
